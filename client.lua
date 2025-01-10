@@ -53,7 +53,7 @@ RegisterNetEvent('mt-clothingbag:client:openBag2', function(obj)
 end)
 
 RegisterNetEvent('mt-clothing:client:openMenu', function()
-    TriggerEvent('qb-clothing:client:openOutfitMenu')
+    TriggerEvent("rcore_clothes:openOutfits")
 end)
 
 RegisterNetEvent('mt-clothingbag:client:progressDespawnBag', function(obj)
